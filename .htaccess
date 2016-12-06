@@ -1,0 +1,2 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^([a-zA-Z0-9]{6})/?$    /_content/_controller/urlController.php?key=$1    [NC,L]    # Handle requests for "urlController"
